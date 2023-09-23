@@ -16,10 +16,21 @@ header {
   display: flex;
   gap: 2em;
   margin: 1em;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 1em;
 }
 
-.container {
-  margin: 1.5em;
+.accent {
+  color: dimgray;
+}
+
+.education, 
+.experience, 
+.certifications,
+.contact {
+  margin: 1em;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 2em;
 }
 
 .headshot img {
@@ -27,6 +38,13 @@ header {
   border-radius: 5rem;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   margin: 0.5em;
+}
+
+.right > .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
 
 .opening {
@@ -42,6 +60,7 @@ header {
   text-align: left;
 }
 
-.education > .details > span {
-  margin-left: 2em;
+ul {
+  display: flex;
+  gap: 5rem;
 }
